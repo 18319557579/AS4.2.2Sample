@@ -1,0 +1,2 @@
+rootProject.name = "AS4.2.2Sample"
+include ':app'
