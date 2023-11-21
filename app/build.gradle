@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
 }
+//这里使用了新方式，无需在dependencies添加依赖了，直接使用org.jetbrains.kotlin.android插件即可
 
 android {
     compileSdkVersion 34
@@ -29,6 +31,7 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.core:core-ktx:1.12.0'
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.6.0'
